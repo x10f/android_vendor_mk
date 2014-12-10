@@ -161,18 +161,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.ipcall.enabled=true
 
 PRODUCT_PACKAGES += \
+    AudioFX \
+    Eleven \
     Launcher3 \
     MoKeeLauncher \
-    DSPManager \
-    libcyanogen-dsp \
-    libscreenrecorder \
-    audio_effects.conf \
-    Apollo \
     CMFileManager \
     LockClock \
     MoKeeHelper \
     MoKeeHome \
-    MoKeeScreenRecorder \
     MoKeeSetupWizard \
     mokee-phonelocation
 
